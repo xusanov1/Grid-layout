@@ -1,0 +1,126 @@
+@import "./botstrap.min.css";
+
+* {
+    color: #241400;
+    
+
+}
+main{
+    background-color: 
+    #FFFAF5;
+}
+
+nav {
+    height: 80px;
+}
+
+header a {
+    color: #241400;
+}
+
+#intro button {
+    width: 212px;
+    height: 50px;
+    border: none;
+    background-color: #E16A00;
+    color: #fff;
+    box-shadow: #E16A00 0px 8px 24px;
+}
+
+#intro button:hover {
+    color: #E16A00;
+    background-color: #fff;
+    transition: all 0.5s linear;
+}
+
+@media only screen and (max-width: 768px){
+    
+    #intro img{
+        width: 108px;
+        height: 18px;
+    }
+
+    header select{
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    #intro img{
+        width: 292px;
+        height: 260px;
+    }
+
+    header select{
+        width: 10px;
+    }
+
+    header input{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 540px){
+    header input{
+        display: none;
+    }
+}
+
+/* ============================ */
+
+#category a {
+    text-decoration: none;
+}
+
+/* ======================== */
+
+.card button {
+    width: 103px;
+    height: 29px;
+    border-radius: 3px;
+    background-color: #E16A00;
+    color: #fff;
+    font-weight: 900;
+    border: none;
+}
+
+/* =========================== */
+
+.mx-10 {
+    margin-left: 200px;
+}
+
+/* ===================== */
+#catalog p {
+    font-weight: 800;
+}
+
+#catalog .cart:hover {
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* ============================== */
+
+#about h1{
+    font-weight: 900;
+}
+
+/* ======================= */
+
+footer{
+    background-color:  #391F00;
+}
+
+footer p{
+    color: #fff;
+}
+
+footer button{
+    border: 3px solid 
+    #E16A00;
+    background-color: transparent;
+    color: 
+    #E16A00;
+}
